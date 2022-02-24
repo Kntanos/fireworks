@@ -34,7 +34,11 @@ object Firework:
    * “literal patterns” to match on case objects.
    */
   def next(firework: Firework): Firework =
-    ???
+    firework match
+      case firework: Waiting => firework.next
+      case firework: Launched => firework.next
+      case firework: Exploding => firework.next
+      case _ => Done
 
 end Firework
 
@@ -61,7 +65,8 @@ case class Waiting(countDown: Int, startPosition: Point, numberOfParticles: Int,
   def next: Firework =
     if countDown > 0 then
       copy(countDown = countDown - 1)
-    else ???
+    else
+      Launched.init(Waiting.init().startPosition, Waiting.init().numberOfParticles, Waiting.init().particlesColor)
 
 end Waiting
 
