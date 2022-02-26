@@ -435,3 +435,592 @@ WARNING: Unmatched cancel notification for request id 2044
 2022.02.24 21:21:04 INFO  time: compiled fireworks in 0.74s
 2022.02.24 21:21:19 INFO  compiling fireworks (1 scala source)
 2022.02.24 21:21:19 INFO  time: compiled fireworks in 0.5s
+2022.02.24 21:31:56 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:31:56 INFO  time: compiled fireworks in 0.58s
+2022.02.24 21:36:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-server.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.02.24 21:36:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-client.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.02.24 21:36:11 INFO  Starting debug proxy for [fireworks.run]
+2022.02.24 21:36:12 INFO  Trying to attach to remote debuggee VM localhost:65403 .
+2022.02.24 21:36:12 INFO  Attaching to debuggee VM succeeded.
+2022.02.24 21:36:15 ERROR scala.NotImplementedError: an implementation is missing
+2022.02.24 21:36:15 ERROR 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)
+2022.02.24 21:36:15 ERROR 	at fireworks.Launched.next(Fireworks.scala:117)
+2022.02.24 21:36:15 ERROR 	at fireworks.Firework$.next(Fireworks.scala:39)
+2022.02.24 21:36:15 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$5(FireworksRunner.scala:31)
+2022.02.24 21:36:15 ERROR 	at scala.collection.immutable.List.flatMap(List.scala:293)
+2022.02.24 21:36:15 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$3(FireworksRunner.scala:33)
+2022.02.24 21:36:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.fastLoop(UnfoldObservable.scala:68)
+2022.02.24 21:36:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.run(UnfoldObservable.scala:95)
+2022.02.24 21:36:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1(UnfoldObservable.scala:58)
+2022.02.24 21:36:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1$adapted(UnfoldObservable.scala:56)
+2022.02.24 21:36:15 ERROR 	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:448)
+2022.02.24 21:36:15 ERROR 	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
+2022.02.24 21:36:15 ERROR 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+2022.02.24 21:36:15 ERROR 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+2022.02.24 21:36:15 ERROR 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+2022.02.24 21:36:15 ERROR 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022.02.24 21:36:53 INFO  Canceling debug proxy for [fireworks.run]
+2022.02.24 21:36:53 INFO  Closing debug server tcp://0.0.0.0:65399
+2022.02.24 21:37:54 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:37:54 INFO  time: compiled fireworks in 0.37s
+2022.02.24 21:37:55 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:37:55 INFO  time: compiled fireworks in 0.6s
+2022.02.24 21:38:01 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:01 INFO  time: compiled fireworks in 0.13s
+2022.02.24 21:38:02 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:02 INFO  time: compiled fireworks in 0.1s
+2022.02.24 21:38:05 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:05 INFO  time: compiled fireworks in 0.16s
+2022.02.24 21:38:18 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:18 INFO  time: compiled fireworks in 0.27s
+2022.02.24 21:38:46 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:46 INFO  time: compiled fireworks in 91ms
+2022.02.24 21:38:47 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:47 INFO  time: compiled fireworks in 0.24s
+2022.02.24 21:38:50 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:50 INFO  time: compiled fireworks in 0.24s
+2022.02.24 21:38:52 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:52 INFO  time: compiled fireworks in 0.48s
+2022.02.24 21:38:57 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:38:57 INFO  time: compiled fireworks in 0.66s
+2022.02.24 21:39:15 WARN  Could not load snapshot text for /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/src/main/scala/fireworks/Fireworks.scala
+2022.02.24 21:39:16 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:16 INFO  time: compiled fireworks in 0.21s
+2022.02.24 21:39:21 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:21 INFO  time: compiled fireworks in 0.19s
+2022.02.24 21:39:24 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:24 INFO  time: compiled fireworks in 0.17s
+2022.02.24 21:39:30 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:30 INFO  time: compiled fireworks in 0.16s
+2022.02.24 21:39:32 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:32 INFO  time: compiled fireworks in 77ms
+2022.02.24 21:39:34 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:39:34 INFO  time: compiled fireworks in 0.6s
+2022.02.24 21:40:22 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:22 INFO  time: compiled fireworks in 0.74s
+2022.02.24 21:40:23 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:23 INFO  time: compiled fireworks in 0.17s
+2022.02.24 21:40:26 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:26 INFO  time: compiled fireworks in 0.7s
+2022.02.24 21:40:30 WARN  Could not load snapshot text for /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/src/main/scala/fireworks/Fireworks.scala
+2022.02.24 21:40:31 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:31 INFO  time: compiled fireworks in 0.28s
+2022.02.24 21:40:36 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:36 INFO  time: compiled fireworks in 0.12s
+2022.02.24 21:40:41 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:41 INFO  time: compiled fireworks in 0.57s
+2022.02.24 21:40:43 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:43 INFO  time: compiled fireworks in 0.66s
+2022.02.24 21:40:47 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:47 INFO  time: compiled fireworks in 0.61s
+2022.02.24 21:40:51 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:51 INFO  time: compiled fireworks in 0.23s
+2022.02.24 21:40:56 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:40:56 INFO  time: compiled fireworks in 0.49s
+Feb 24, 2022 9:41:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3364
+2022.02.24 21:41:16 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:16 INFO  time: compiled fireworks in 0.53s
+2022.02.24 21:41:22 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:22 INFO  time: compiled fireworks in 0.9s
+2022.02.24 21:41:38 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:38 INFO  time: compiled fireworks in 0.47s
+2022.02.24 21:41:41 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:41 INFO  time: compiled fireworks in 0.24s
+2022.02.24 21:41:48 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:48 INFO  time: compiled fireworks in 0.55s
+2022.02.24 21:41:50 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:50 INFO  time: compiled fireworks in 0.37s
+2022.02.24 21:41:52 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:52 INFO  time: compiled fireworks in 0.59s
+2022.02.24 21:41:53 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:41:53 INFO  time: compiled fireworks in 0.48s
+2022.02.24 21:42:04 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:42:04 INFO  time: compiled fireworks in 0.51s
+Feb 24, 2022 9:43:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3492
+2022.02.24 21:45:29 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:29 INFO  time: compiled fireworks in 0.67s
+2022.02.24 21:45:32 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:32 INFO  time: compiled fireworks in 0.14s
+Feb 24, 2022 9:45:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3547
+2022.02.24 21:45:47 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:47 INFO  time: compiled fireworks in 0.13s
+2022.02.24 21:45:52 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:52 INFO  time: compiled fireworks in 0.58s
+2022.02.24 21:45:54 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:54 INFO  time: compiled fireworks in 0.11s
+2022.02.24 21:45:57 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:45:57 INFO  time: compiled fireworks in 0.36s
+2022.02.24 21:46:01 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:01 INFO  time: compiled fireworks in 0.22s
+2022.02.24 21:46:27 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:27 INFO  time: compiled fireworks in 0.15s
+2022.02.24 21:46:30 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:30 INFO  time: compiled fireworks in 0.19s
+2022.02.24 21:46:32 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:32 INFO  time: compiled fireworks in 94ms
+2022.02.24 21:46:34 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:34 INFO  time: compiled fireworks in 92ms
+Feb 24, 2022 9:46:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3683
+2022.02.24 21:46:46 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:46 INFO  time: compiled fireworks in 0.13s
+2022.02.24 21:46:49 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:49 INFO  time: compiled fireworks in 0.3s
+2022.02.24 21:46:53 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:46:53 INFO  time: compiled fireworks in 0.11s
+Feb 24, 2022 9:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3733
+2022.02.24 21:48:08 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:08 INFO  time: compiled fireworks in 0.35s
+Feb 24, 2022 9:48:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3772
+2022.02.24 21:48:22 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:22 INFO  time: compiled fireworks in 0.28s
+2022.02.24 21:48:27 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:27 INFO  time: compiled fireworks in 0.12s
+2022.02.24 21:48:30 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:30 INFO  time: compiled fireworks in 0.44s
+2022.02.24 21:48:32 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:32 INFO  time: compiled fireworks in 0.59s
+2022.02.24 21:48:56 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:56 INFO  time: compiled fireworks in 0.53s
+2022.02.24 21:48:59 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:48:59 INFO  time: compiled fireworks in 0.46s
+2022.02.24 21:49:07 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:07 INFO  time: compiled fireworks in 0.22s
+Feb 24, 2022 9:49:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3867
+2022.02.24 21:49:13 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:13 INFO  time: compiled fireworks in 0.22s
+2022.02.24 21:49:14 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:14 INFO  time: compiled fireworks in 0.15s
+2022.02.24 21:49:16 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:16 INFO  time: compiled fireworks in 96ms
+2022.02.24 21:49:19 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:19 INFO  time: compiled fireworks in 0.49s
+2022.02.24 21:49:21 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:21 INFO  time: compiled fireworks in 0.64s
+2022.02.24 21:49:23 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:23 INFO  time: compiled fireworks in 0.22s
+2022.02.24 21:49:32 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:49:32 INFO  time: compiled fireworks in 0.22s
+2022.02.24 21:50:04 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:50:04 INFO  time: compiled fireworks in 0.35s
+2022.02.24 21:50:08 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:50:08 INFO  time: compiled fireworks in 0.48s
+2022.02.24 21:50:29 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:50:29 INFO  time: compiled fireworks in 0.41s
+2022.02.24 21:50:36 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:50:36 INFO  time: compiled fireworks in 0.21s
+2022.02.24 21:50:59 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:50:59 INFO  time: compiled fireworks in 0.24s
+2022.02.24 21:51:29 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:51:29 INFO  time: compiled fireworks in 0.56s
+2022.02.24 21:52:36 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:52:36 INFO  time: compiled fireworks in 0.63s
+2022.02.24 21:52:44 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:52:44 INFO  time: compiled fireworks in 0.2s
+2022.02.24 21:54:08 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:08 INFO  time: compiled fireworks in 0.16s
+2022.02.24 21:54:10 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:10 INFO  time: compiled fireworks in 95ms
+2022.02.24 21:54:14 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:14 INFO  time: compiled fireworks in 86ms
+2022.02.24 21:54:15 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:15 INFO  time: compiled fireworks in 0.56s
+2022.02.24 21:54:22 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:22 INFO  time: compiled fireworks in 0.18s
+2022.02.24 21:54:25 INFO  compiling fireworks (1 scala source)
+2022.02.24 21:54:25 INFO  time: compiled fireworks in 0.19s
+2022.02.24 22:57:43 INFO  compiling fireworks (1 scala source)
+2022.02.24 22:57:43 INFO  time: compiled fireworks in 0.87s
+2022.02.24 22:57:58 INFO  compiling fireworks (1 scala source)
+2022.02.24 22:57:58 INFO  time: compiled fireworks in 0.54s
+2022.02.24 22:58:00 INFO  compiling fireworks (1 scala source)
+2022.02.24 22:58:00 INFO  time: compiled fireworks in 0.52s
+2022.02.24 22:58:24 INFO  compiling fireworks (1 scala source)
+2022.02.24 22:58:24 INFO  time: compiled fireworks in 0.1s
+2022.02.26 12:35:38 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:35:38 INFO  time: compiled fireworks in 0.69s
+2022.02.26 12:36:58 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:36:58 INFO  time: compiled fireworks in 0.16s
+2022.02.26 12:37:01 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:01 INFO  time: compiled fireworks in 0.18s
+2022.02.26 12:37:03 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:03 INFO  time: compiled fireworks in 0.44s
+2022.02.26 12:37:13 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:13 INFO  time: compiled fireworks in 0.47s
+2022.02.26 12:37:15 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:15 INFO  time: compiled fireworks in 0.61s
+2022.02.26 12:37:30 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:30 INFO  time: compiled fireworks in 0.2s
+2022.02.26 12:37:34 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:34 INFO  time: compiled fireworks in 0.32s
+2022.02.26 12:37:37 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:37 INFO  time: compiled fireworks in 0.25s
+2022.02.26 12:37:54 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:37:54 INFO  time: compiled fireworks in 0.24s
+2022.02.26 12:39:24 WARN  Could not load snapshot text for /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/src/main/scala/fireworks/Fireworks.scala
+2022.02.26 12:42:00 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:42:00 INFO  time: compiled fireworks in 0.25s
+2022.02.26 12:42:44 WARN  Could not load snapshot text for /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/src/main/scala/fireworks/Fireworks.scala
+2022.02.26 12:42:45 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:42:45 INFO  time: compiled fireworks in 0.15s
+2022.02.26 12:42:57 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:42:57 INFO  time: compiled fireworks in 0.53s
+2022.02.26 12:42:59 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:42:59 INFO  time: compiled fireworks in 0.14s
+Feb 26, 2022 12:42:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4834
+Feb 26, 2022 12:42:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4835
+2022.02.26 12:43:01 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:01 INFO  time: compiled fireworks in 0.15s
+2022.02.26 12:43:03 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:03 INFO  time: compiled fireworks in 0.1s
+2022.02.26 12:43:07 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:07 INFO  time: compiled fireworks in 83ms
+2022.02.26 12:43:10 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:10 INFO  time: compiled fireworks in 0.12s
+2022.02.26 12:43:14 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:14 INFO  time: compiled fireworks in 0.13s
+2022.02.26 12:43:44 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:43:44 INFO  time: compiled fireworks in 76ms
+2022.02.26 12:44:00 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:44:00 INFO  time: compiled fireworks in 0.39s
+2022.02.26 12:44:45 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:44:45 INFO  time: compiled fireworks in 0.18s
+2022.02.26 12:44:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:44:55 INFO  time: compiled fireworks in 0.2s
+2022.02.26 12:45:00 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:45:00 INFO  time: compiled fireworks in 0.13s
+Feb 26, 2022 12:45:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5087
+2022.02.26 12:45:20 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:45:20 INFO  time: compiled fireworks in 94ms
+2022.02.26 12:45:39 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:45:39 INFO  time: compiled fireworks in 0.63s
+2022.02.26 12:46:23 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:46:23 INFO  time: compiled fireworks in 94ms
+2022.02.26 12:46:53 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:46:53 INFO  time: compiled fireworks in 0.27s
+2022.02.26 12:46:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:46:55 INFO  time: compiled fireworks in 0.11s
+2022.02.26 12:46:58 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:46:58 INFO  time: compiled fireworks in 0.49s
+2022.02.26 12:47:31 WARN  Could not load snapshot text for /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/src/main/scala/fireworks/Fireworks.scala
+2022.02.26 12:47:32 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:47:32 INFO  time: compiled fireworks in 0.17s
+Feb 26, 2022 12:47:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5307
+2022.02.26 12:47:52 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:47:52 INFO  time: compiled fireworks in 0.59s
+2022.02.26 12:47:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:47:55 INFO  time: compiled fireworks in 0.62s
+2022.02.26 12:47:57 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:47:57 INFO  time: compiled fireworks in 0.74s
+2022.02.26 12:48:01 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:48:01 INFO  time: compiled fireworks in 0.75s
+2022.02.26 12:48:22 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:48:22 INFO  time: compiled fireworks in 0.72s
+2022.02.26 12:48:25 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:48:25 INFO  time: compiled fireworks in 0.64s
+2022.02.26 12:48:27 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:48:27 INFO  time: compiled fireworks in 0.55s
+2022.02.26 12:48:30 INFO  compiling fireworks (1 scala source)
+2022.02.26 12:48:30 INFO  time: compiled fireworks in 0.48s
+2022.02.26 13:35:58 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:35:58 INFO  time: compiled fireworks in 0.46s
+2022.02.26 13:36:57 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:36:57 INFO  time: compiled fireworks in 94ms
+2022.02.26 13:37:45 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:37:46 INFO  time: compiled fireworks in 1.21s
+2022.02.26 13:37:59 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:37:59 INFO  time: compiled fireworks in 0.36s
+Feb 26, 2022 1:38:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5759
+2022.02.26 13:38:38 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:38:38 INFO  time: compiled fireworks in 0.11s
+2022.02.26 13:39:20 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:39:20 INFO  time: compiled fireworks in 0.5s
+2022.02.26 13:40:08 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:40:08 INFO  time: compiled fireworks in 0.21s
+2022.02.26 13:44:42 INFO  compiling fireworks (1 scala source)
+2022.02.26 13:44:42 INFO  time: compiled fireworks in 0.32s
+2022.02.26 14:03:45 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:03:45 INFO  time: compiled fireworks in 0.61s
+2022.02.26 14:04:22 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:04:22 INFO  time: compiled fireworks in 0.25s
+2022.02.26 14:41:50 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:41:50 INFO  time: compiled fireworks in 0.24s
+2022.02.26 14:41:51 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:41:51 INFO  time: compiled fireworks in 0.16s
+2022.02.26 14:42:33 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:42:33 INFO  time: compiled fireworks in 0.18s
+2022.02.26 14:43:16 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:16 INFO  time: compiled fireworks in 0.17s
+2022.02.26 14:43:18 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:18 INFO  time: compiled fireworks in 0.12s
+2022.02.26 14:43:20 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:20 INFO  time: compiled fireworks in 0.19s
+2022.02.26 14:43:40 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:40 INFO  time: compiled fireworks in 0.13s
+2022.02.26 14:43:46 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:46 INFO  time: compiled fireworks in 0.74s
+2022.02.26 14:43:49 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:43:49 INFO  time: compiled fireworks in 0.2s
+Feb 26, 2022 2:43:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6160
+2022.02.26 14:44:21 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:44:21 INFO  time: compiled fireworks in 0.49s
+2022.02.26 14:44:42 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:44:42 INFO  time: compiled fireworks in 0.6s
+2022.02.26 14:44:43 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:44:43 INFO  time: compiled fireworks in 0.25s
+2022.02.26 14:44:46 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:44:46 INFO  time: compiled fireworks in 0.56s
+2022.02.26 14:44:57 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:44:57 INFO  time: compiled fireworks in 0.17s
+2022.02.26 14:49:29 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:49:29 INFO  time: compiled fireworks in 0.66s
+2022.02.26 14:49:45 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:49:45 INFO  time: compiled fireworks in 0.14s
+2022.02.26 14:49:50 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:49:50 INFO  time: compiled fireworks in 0.15s
+2022.02.26 14:49:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:49:55 INFO  time: compiled fireworks in 0.12s
+2022.02.26 14:49:58 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:49:58 INFO  time: compiled fireworks in 0.18s
+2022.02.26 14:50:04 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:04 INFO  time: compiled fireworks in 0.14s
+2022.02.26 14:50:07 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:07 INFO  time: compiled fireworks in 0.2s
+2022.02.26 14:50:17 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:17 INFO  time: compiled fireworks in 0.75s
+2022.02.26 14:50:19 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:19 INFO  time: compiled fireworks in 0.78s
+2022.02.26 14:50:48 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:48 INFO  time: compiled fireworks in 0.53s
+2022.02.26 14:50:56 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:50:56 INFO  time: compiled fireworks in 0.55s
+2022.02.26 14:51:01 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:51:01 INFO  time: compiled fireworks in 0.21s
+2022.02.26 14:51:26 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:51:26 INFO  time: compiled fireworks in 87ms
+2022.02.26 14:52:02 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:52:02 INFO  time: compiled fireworks in 0.14s
+2022.02.26 14:52:04 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:52:04 INFO  time: compiled fireworks in 0.18s
+2022.02.26 14:52:44 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:52:44 INFO  time: compiled fireworks in 0.16s
+2022.02.26 14:52:47 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:52:47 INFO  time: compiled fireworks in 75ms
+2022.02.26 14:52:49 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:52:49 INFO  time: compiled fireworks in 96ms
+Feb 26, 2022 2:52:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6639
+2022.02.26 14:53:05 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:53:05 INFO  time: compiled fireworks in 83ms
+2022.02.26 14:53:09 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:53:09 INFO  time: compiled fireworks in 0.17s
+2022.02.26 14:53:34 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:53:34 INFO  time: compiled fireworks in 0.22s
+2022.02.26 14:54:04 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:04 INFO  time: compiled fireworks in 0.73s
+2022.02.26 14:54:28 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:28 INFO  time: compiled fireworks in 0.19s
+2022.02.26 14:54:30 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:30 INFO  time: compiled fireworks in 0.77s
+2022.02.26 14:54:33 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:33 INFO  time: compiled fireworks in 0.17s
+2022.02.26 14:54:42 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:42 INFO  time: compiled fireworks in 0.17s
+2022.02.26 14:54:54 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:54 INFO  time: compiled fireworks in 92ms
+2022.02.26 14:54:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:54:55 INFO  time: compiled fireworks in 82ms
+2022.02.26 14:55:00 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:55:00 INFO  time: compiled fireworks in 91ms
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6992
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6993
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6998
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6999
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6994
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6995
+Feb 26, 2022 2:55:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7000
+2022.02.26 14:55:23 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:55:23 INFO  time: compiled fireworks in 0.15s
+Feb 26, 2022 2:55:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7019
+2022.02.26 14:55:34 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:55:34 INFO  time: compiled fireworks in 94ms
+2022.02.26 14:55:39 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:55:39 INFO  time: compiled fireworks in 0.14s
+2022.02.26 14:55:52 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:55:52 INFO  time: compiled fireworks in 0.98s
+2022.02.26 14:56:02 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:56:02 INFO  time: compiled fireworks in 0.15s
+Feb 26, 2022 2:56:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7168
+2022.02.26 14:56:57 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:56:57 INFO  time: compiled fireworks in 0.21s
+2022.02.26 14:57:00 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:00 INFO  time: compiled fireworks in 0.12s
+2022.02.26 14:57:03 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:03 INFO  time: compiled fireworks in 98ms
+2022.02.26 14:57:06 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:06 INFO  time: compiled fireworks in 0.16s
+2022.02.26 14:57:09 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:09 INFO  time: compiled fireworks in 0.12s
+2022.02.26 14:57:41 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:41 INFO  time: compiled fireworks in 0.27s
+2022.02.26 14:57:46 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:46 INFO  time: compiled fireworks in 0.14s
+2022.02.26 14:57:55 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:57:55 INFO  time: compiled fireworks in 0.38s
+Feb 26, 2022 2:57:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7338
+2022.02.26 14:58:10 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:58:10 INFO  time: compiled fireworks in 0.16s
+2022.02.26 14:58:11 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:58:11 INFO  time: compiled fireworks in 0.15s
+2022.02.26 14:58:16 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:58:16 INFO  time: compiled fireworks in 0.12s
+2022.02.26 14:58:36 INFO  compiling fireworks (1 scala source)
+2022.02.26 14:58:36 INFO  time: compiled fireworks in 0.74s
+2022.02.26 14:58:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-server.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.02.26 14:58:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-client.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.02.26 14:58:57 INFO  Starting debug proxy for [fireworks.run]
+2022.02.26 14:58:58 INFO  Trying to attach to remote debuggee VM localhost:54855 .
+2022.02.26 14:58:58 INFO  Attaching to debuggee VM succeeded.
+2022.02.26 14:59:01 ERROR scala.NotImplementedError: an implementation is missing
+2022.02.26 14:59:01 ERROR 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)
+2022.02.26 14:59:01 ERROR 	at fireworks.Exploding.next(Fireworks.scala:158)
+2022.02.26 14:59:01 ERROR 	at fireworks.Firework$.next(Fireworks.scala:40)
+2022.02.26 14:59:01 ERROR 	at fireworks.Launched.next(Fireworks.scala:120)
+2022.02.26 14:59:01 ERROR 	at fireworks.Firework$.next(Fireworks.scala:39)
+2022.02.26 14:59:01 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$5(FireworksRunner.scala:31)
+2022.02.26 14:59:01 ERROR 	at scala.collection.immutable.List.flatMap(List.scala:293)
+2022.02.26 14:59:01 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$3(FireworksRunner.scala:33)
+2022.02.26 14:59:01 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.fastLoop(UnfoldObservable.scala:68)
+2022.02.26 14:59:01 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.run(UnfoldObservable.scala:95)
+2022.02.26 14:59:01 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1(UnfoldObservable.scala:58)
+2022.02.26 14:59:01 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1$adapted(UnfoldObservable.scala:56)
+2022.02.26 14:59:01 ERROR 	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:448)
+2022.02.26 14:59:01 ERROR 	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
+2022.02.26 14:59:01 ERROR 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+2022.02.26 14:59:01 ERROR 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+2022.02.26 14:59:01 ERROR 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+2022.02.26 14:59:01 ERROR 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022.02.26 14:59:10 INFO  Canceling debug proxy for [fireworks.run]
+2022.02.26 14:59:10 INFO  Closing debug server tcp://0.0.0.0:54851
+2022.02.26 15:00:09 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:00:09 INFO  time: compiled fireworks in 0.43s
+2022.02.26 15:01:17 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:17 INFO  time: compiled fireworks in 0.22s
+2022.02.26 15:01:21 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:21 INFO  time: compiled fireworks in 0.59s
+2022.02.26 15:01:25 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:25 INFO  time: compiled fireworks in 0.13s
+2022.02.26 15:01:28 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:28 INFO  time: compiled fireworks in 70ms
+2022.02.26 15:01:44 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:44 INFO  time: compiled fireworks in 99ms
+2022.02.26 15:01:47 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:47 INFO  time: compiled fireworks in 0.52s
+2022.02.26 15:01:49 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:49 INFO  time: compiled fireworks in 0.52s
+2022.02.26 15:01:50 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:50 INFO  time: compiled fireworks in 0.82s
+2022.02.26 15:01:52 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:01:52 INFO  time: compiled fireworks in 0.46s
+2022.02.26 15:02:15 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:02:15 INFO  time: compiled fireworks in 0.48s
+2022.02.26 15:02:44 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:02:44 INFO  time: compiled fireworks in 0.62s
+2022.02.26 15:02:46 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:02:46 INFO  time: compiled fireworks in 0.55s
+2022.02.26 15:02:48 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:02:48 INFO  time: compiled fireworks in 0.68s
+2022.02.26 15:03:04 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:04 INFO  time: compiled fireworks in 0.57s
+2022.02.26 15:03:06 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:06 INFO  time: compiled fireworks in 0.46s
+2022.02.26 15:03:08 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:08 INFO  time: compiled fireworks in 0.55s
+2022.02.26 15:03:10 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:10 INFO  time: compiled fireworks in 0.46s
+2022.02.26 15:03:11 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:11 INFO  time: compiled fireworks in 0.91s
+2022.02.26 15:03:15 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:15 INFO  time: compiled fireworks in 0.55s
+2022.02.26 15:03:22 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:22 INFO  time: compiled fireworks in 0.42s
+2022.02.26 15:03:28 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:28 INFO  time: compiled fireworks in 0.4s
+2022.02.26 15:03:33 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:33 INFO  time: compiled fireworks in 0.45s
+2022.02.26 15:03:36 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:03:36 INFO  time: compiled fireworks in 0.72s
+2022.02.26 15:04:08 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:08 INFO  time: compiled fireworks in 0.55s
+2022.02.26 15:04:18 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:18 INFO  time: compiled fireworks in 0.19s
+2022.02.26 15:04:19 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:19 INFO  time: compiled fireworks in 0.76s
+2022.02.26 15:04:24 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:24 INFO  time: compiled fireworks in 0.75s
+2022.02.26 15:04:28 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:28 INFO  time: compiled fireworks in 0.57s
+2022.02.26 15:04:33 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:33 INFO  time: compiled fireworks in 0.58s
+2022.02.26 15:04:37 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:04:37 INFO  time: compiled fireworks in 0.52s
+2022.02.26 15:08:28 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:08:28 INFO  time: compiled fireworks in 0.58s
+2022.02.26 15:08:32 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:08:32 INFO  time: compiled fireworks in 0.2s
+2022.02.26 15:08:38 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:08:38 INFO  time: compiled fireworks in 0.2s
+2022.02.26 15:08:48 INFO  compiling fireworks (1 scala source)
+2022.02.26 15:08:48 INFO  time: compiled fireworks in 0.59s
+2022.02.26 15:09:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-server.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.02.26 15:09:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kostas/Library/CloudStorage/OneDrive-Personal/Scala/fireworks/.metals/dap-client.trace.json or /Users/kostas/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.02.26 15:09:12 INFO  Starting debug proxy for [fireworks.run]
+2022.02.26 15:09:13 INFO  Trying to attach to remote debuggee VM localhost:55005 .
+2022.02.26 15:09:13 INFO  Attaching to debuggee VM succeeded.
+2022.02.26 15:09:15 ERROR scala.NotImplementedError: an implementation is missing
+2022.02.26 15:09:15 ERROR 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)
+2022.02.26 15:09:15 ERROR 	at fireworks.Particle.next(Fireworks.scala:209)
+2022.02.26 15:09:15 ERROR 	at fireworks.Particles.next$$anonfun$1(Fireworks.scala:234)
+2022.02.26 15:09:15 ERROR 	at scala.collection.immutable.List.map(List.scala:246)
+2022.02.26 15:09:15 ERROR 	at fireworks.Particles.next(Fireworks.scala:234)
+2022.02.26 15:09:15 ERROR 	at fireworks.Exploding.next(Fireworks.scala:159)
+2022.02.26 15:09:15 ERROR 	at fireworks.Firework$.next(Fireworks.scala:40)
+2022.02.26 15:09:15 ERROR 	at fireworks.Launched.next(Fireworks.scala:120)
+2022.02.26 15:09:15 ERROR 	at fireworks.Firework$.next(Fireworks.scala:39)
+2022.02.26 15:09:15 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$5(FireworksRunner.scala:31)
+2022.02.26 15:09:15 ERROR 	at scala.collection.immutable.List.flatMap(List.scala:293)
+2022.02.26 15:09:15 ERROR 	at fireworks.FireworksRunner$package$.$anonfun$3(FireworksRunner.scala:33)
+2022.02.26 15:09:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.fastLoop(UnfoldObservable.scala:68)
+2022.02.26 15:09:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.run(UnfoldObservable.scala:95)
+2022.02.26 15:09:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1(UnfoldObservable.scala:58)
+2022.02.26 15:09:15 ERROR 	at monix.reactive.internal.builders.UnfoldObservable$StateRunLoop.$anonfun$asyncReschedule$1$adapted(UnfoldObservable.scala:56)
+2022.02.26 15:09:15 ERROR 	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:448)
+2022.02.26 15:09:15 ERROR 	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
+2022.02.26 15:09:15 ERROR 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+2022.02.26 15:09:15 ERROR 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+2022.02.26 15:09:15 ERROR 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+2022.02.26 15:09:15 ERROR 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2022.02.26 15:09:24 INFO  Canceling debug proxy for [fireworks.run]
+2022.02.26 15:09:24 INFO  Closing debug server tcp://0.0.0.0:55001

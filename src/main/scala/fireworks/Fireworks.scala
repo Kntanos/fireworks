@@ -66,8 +66,7 @@ case class Waiting(countDown: Int, startPosition: Point, numberOfParticles: Int,
     if countDown > 0 then
       copy(countDown = countDown - 1)
     else
-      Launched.init(Waiting.init().startPosition, Waiting.init().numberOfParticles, Waiting.init().particlesColor)
-
+      Firework.next(Launched.init(startPosition, numberOfParticles, particlesColor))
 end Waiting
 
 object Waiting:
@@ -114,7 +113,11 @@ case class Launched(countDown: Int, position: Point, direction: Angle, numberOfP
    *         and use the constant [[Settings.propulsionSpeed]] for the speed of the firework.
    */
   def next: Firework =
-    ???
+    if countDown > 0 then
+      copy(position = Motion.movePoint(position, direction, Settings.propulsionSpeed))
+      copy(countDown = countDown - 1)
+    else
+      Firework.next(Exploding.init(numberOfParticles, direction, position, particlesColor))
 
 end Launched
 
@@ -152,7 +155,11 @@ case class Exploding(countDown: Int, particles: Particles) extends Firework:
    *       of this firework.
    */
   def next: Firework =
-    ???
+    if countDown > 0 then
+      copy(particles = particles.next)
+      copy(countDown = countDown -1)
+    else
+      Firework.next(Done)
 
 end Exploding
 
